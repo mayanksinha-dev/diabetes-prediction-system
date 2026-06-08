@@ -1,0 +1,27 @@
+{
+  "accuracy": 74.68,
+  "roc_auc": 0.8306,
+  "cv_mean": 76.05,
+  "feature_importances": {
+    "Pregnancies": 0.0671,
+    "Glucose": 0.2825,
+    "BloodPressure": 0.0727,
+    "SkinThickness": 0.0631,
+    "Insulin": 0.0997,
+    "BMI": 0.1763,
+    "DiabetesPedigreeFunction": 0.1096,
+    "Age": 0.129
+  },
+  "features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "n_estimators": 200,
+  "training_samples": 614
+}
